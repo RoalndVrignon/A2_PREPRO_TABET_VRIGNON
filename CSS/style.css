@@ -4,14 +4,57 @@ body {
 body .cycle-slideshow {
   text-align: center;
 }
+body #content {
+  color: white;
+}
+body .navbar-inner li {
+  line-height: 50px;
+  letter-spacing: 4px;
+  background-color: dodgerblue;
+}
+body .nav-link {
+  border-top: 4px solid white;
+  transition: border-top .3s;
+}
+body .nav-link:hover {
+  border-top: 4px solid dodgerblue;
+}
+body .dropdown-menu li > a:hover, body .dropdown-menu li > a:focus, body .dropdown-submenu:hover > a {
+  background-image: none;
+  /*background-color:dodgerblue;*/
+}
+body .brand {
+  letter-spacing: 4px;
+  border-top: 4px solid white;
+  transition: border-top .3s;
+}
+body .header {
+  background-color: rgba(255, 255, 255, 0.95);
+  /* remove the gradient */
+  background-image: none !important;
+  border-bottom: 2px solid dodgerblue !important;
+  line-height: 40px !important;
+  box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.2) !important;
+}
+body .dropdown-menu::before,
+body .dropdown-menu::after {
+  border: none;
+  content: none !important;
+}
+body .dropdown-menu {
+  border-radius: 3%;
+  z-index: -3;
+  margin-top: -10px;
+  margin-right: -60% !important;
+}
 
 h1 {
   text-align: center;
 }
 
 header {
-  background-color: black;
-  padding: 15px;
+  background-color: white;
+  padding: 33px;
 }
 
 ul {
@@ -38,14 +81,3 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
-li:last-child {
-  border-right: none;
-}
-
-img {
-  margin-left: 45%;
-}

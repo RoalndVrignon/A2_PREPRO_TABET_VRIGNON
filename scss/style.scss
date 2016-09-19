@@ -1,48 +1,43 @@
 @import "compass/css3";
 
 body {
-	background-color: #f2eded;
 
-.cycle-slideshow {
-	text-align: center;
-		
-}
 
-	#content{
+#content{
   color:white;
 }
 
 .navbar-inner li{
   line-height: 50px;
   letter-spacing:4px;
-  background-color: dodgerblue ;
+  background-color: #F7CCA1;
 }
 
 .nav-link{
   border-top: 4px solid white;
 
   transition: border-top .3s;
-  &:hover{border-top: 4px solid dodgerblue; }
+  &:hover{border-top: 4px solid #F7CCA1; }
 }
 
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
   background-image:none;
-  /*background-color:dodgerblue;*/
+  background-color:#F7CCA1;
 }
 
-.brand{
-  letter-spacing:4px;
-  border-top: 4px solid white;
-  transition: border-top .3s;
-}
 
 .header{
-  background-color: rgba(255,255,255, .95);
+  background-color: #E6E9EB;
   /* remove the gradient */
   background-image: none !important;
-  border-bottom:2px solid dodgerblue !important;
+  border-bottom:2px solid #F7CCA1 !important;
   line-height: 40px !important;
   box-shadow: 0 12px 6px -6px rgba(0,0,0, .2) !important;
+}
+
+.cycle-slideshow {
+	left: 300px;
+		
 }
 
 .dropdown-menu::before, 
@@ -58,34 +53,18 @@ body {
     margin-right: -60% !important;
 }
 
-
-}
-
-
-
-
-h1 {
-	text-align: center;
-}
-
-header {
-	background-color: white;
-	padding: 33px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
     align: center;
     border-radius: 5px;
 }
 
 li {
     float: left;
-     border-right: 1px solid #bbb;
+     border-right: 1px solid none;
 }
 
 li a {
@@ -93,8 +72,15 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 152px;
-    text-decoration: none;
 }
+
+}
+
+
+
+
+
+
 
 /* Change the link color to #111 (black) on hover */
 

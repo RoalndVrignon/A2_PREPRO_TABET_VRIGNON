@@ -1,40 +1,32 @@
-body {
-  background-color: #f2eded;
-}
-body .cycle-slideshow {
-  text-align: center;
-}
 body #content {
   color: white;
 }
 body .navbar-inner li {
   line-height: 50px;
   letter-spacing: 4px;
-  background-color: dodgerblue;
+  background-color: #F7CCA1;
 }
 body .nav-link {
   border-top: 4px solid white;
   transition: border-top .3s;
 }
 body .nav-link:hover {
-  border-top: 4px solid dodgerblue;
+  border-top: 4px solid #F7CCA1;
 }
 body .dropdown-menu li > a:hover, body .dropdown-menu li > a:focus, body .dropdown-submenu:hover > a {
   background-image: none;
-  /*background-color:dodgerblue;*/
-}
-body .brand {
-  letter-spacing: 4px;
-  border-top: 4px solid white;
-  transition: border-top .3s;
+  background-color: #F7CCA1;
 }
 body .header {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: #E6E9EB;
   /* remove the gradient */
   background-image: none !important;
-  border-bottom: 2px solid dodgerblue !important;
+  border-bottom: 2px solid #F7CCA1 !important;
   line-height: 40px !important;
   box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.2) !important;
+}
+body .cycle-slideshow {
+  left: 300px;
 }
 body .dropdown-menu::before,
 body .dropdown-menu::after {
@@ -47,37 +39,23 @@ body .dropdown-menu {
   margin-top: -10px;
   margin-right: -60% !important;
 }
-
-h1 {
-  text-align: center;
-}
-
-header {
-  background-color: white;
-  padding: 33px;
-}
-
-ul {
+body ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
   align: center;
   border-radius: 5px;
 }
-
-li {
+body li {
   float: left;
-  border-right: 1px solid #bbb;
+  border-right: 1px solid none;
 }
-
-li a {
+body li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 152px;
-  text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */

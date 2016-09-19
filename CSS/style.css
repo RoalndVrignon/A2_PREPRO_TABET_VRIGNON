@@ -1,6 +1,9 @@
 body {
   background-color: #f2eded;
 }
+body .cycle-slideshow {
+  text-align: center;
+}
 
 h1 {
   text-align: center;

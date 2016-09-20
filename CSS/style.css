@@ -3,6 +3,9 @@ body .navbar-inner li {
   letter-spacing: 4px;
   background-color: #F7CCA1;
 }
+body .flotte {
+  float: left;
+}
 body .nav-link {
   border-top: 4px solid white;
   transition: border-top .3s;
@@ -24,10 +27,20 @@ body .header {
 }
 body .cycle-slideshow .displayed {
   display: block;
-  text-align: center;
+  padding: 10px;
 }
 body .titre {
   text-align: center;
+}
+body .gallery {
+  overflow: hidden;
+  text-align: center;
+  /*border-radius: 100%;
+  -webkit-border-radius:100%;
+  -moz-border-radius:100%;*/
+}
+body .padding {
+  padding: 10px;
 }
 body ul {
   list-style-type: none;
@@ -44,6 +57,7 @@ body li {
 body li a {
   display: block;
   color: white;
+  text-align: center;
   padding: 14px 152px;
 }
 

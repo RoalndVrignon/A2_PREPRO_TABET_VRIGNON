@@ -10,6 +10,10 @@ body {
   background-color: #F7CCA1;
 }
 
+.flotte {
+	float: left;
+}
+
 .nav-link{
   border-top: 4px solid white;
 
@@ -35,12 +39,27 @@ body {
 .cycle-slideshow {
 	.displayed {
     display: block;
-    text-align: center; }
+    padding: 10px; }
 }
 
 .titre {
 	text-align: center;
+
 }
+
+.gallery {
+    overflow:hidden;
+    text-align: center;
+    /*border-radius: 100%;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;*/
+
+}
+
+.padding{
+	padding: 10px;
+}
+
 
 ul {
     list-style-type: none;

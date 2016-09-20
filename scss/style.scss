@@ -1,7 +1,7 @@
 @import "compass/css3";
 
 body {
-	background-color: #f2eded;
+	background-color: #D0DCDB;
 
 	.cycle-slideshow {
 		text-align: center;
@@ -39,7 +39,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 152px;
+    padding: 14px 130px;
     text-decoration: none;
 }
 
@@ -51,5 +51,14 @@ li:last-child {
     border-right: none;
 }
 img{
-	margin-left: 45%;
+	margin-left: 15%;
+    bottom: 0%;
+}
+footer{
+    background-color: black;
+    padding: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+
 }

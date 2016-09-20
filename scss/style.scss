@@ -1,5 +1,7 @@
 @import "compass/css3";
 
+$macouleur : #F7CCA1 ; 
+
 body {
 	
 
@@ -10,8 +12,8 @@ body {
   background-color: #F7CCA1;
 }
 
-.flotte {
-	float: left;
+.bandeau {
+	background-color: $macouleur;
 }
 
 .nav-link{
@@ -23,7 +25,7 @@ body {
 
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
   background-image:none;
-  background-color:#F7CCA1;
+  background-color:$macouleur;
 }
 
 

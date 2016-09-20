@@ -58,14 +58,16 @@
 	<body>
 	<br>
 	<br>
-		<p class="flotte">
+		<div class="bandeau">
+		<br>
 			<div class="cycle-slideshow"  >
 				<img class="displayed" src="./images/image1.jpg" alt="leonard" padding=10px/>
 				<img class="displayed" src="./images/image2.jpg" alt="leonard2"/>
 				<img class="displayed" src="./images/image3.jpg" alt="ordinateurs"/>
 				<img class="displayed" src="./images/image4.jpg" alt="amphitêatre"/>
 			</div>
-		</p>
+			<br>
+		</div>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta tenetur illum minus quos architecto exercitationem temporibus maxime sint repellat. Voluptas suscipit quas sequi nulla deserunt eaque adipisci inventore maiores culpa.
 		</p>

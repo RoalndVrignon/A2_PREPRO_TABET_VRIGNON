@@ -3,8 +3,8 @@ body .navbar-inner li {
   letter-spacing: 4px;
   background-color: #F7CCA1;
 }
-body .flotte {
-  float: left;
+body .bandeau {
+  background-color: #F7CCA1;
 }
 body .nav-link {
   border-top: 4px solid white;

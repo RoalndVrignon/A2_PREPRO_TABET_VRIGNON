@@ -12,13 +12,12 @@
 <div id="background"></div>
 <div class="navbar navbar-fixed-top">
   <nav class="navbar-inner header">
-    <div class="container">
       <div class="brand">
       <img src="images/logo.png" height="80px">
       <ul class="nav pull-right">
 		        <li>
 		          	<a class="nav-link">
-		            	TUTORIALS
+		            	VIE ETUDIANTE
 		          	</a>
 		        </li>
 
@@ -57,16 +56,29 @@
 	</header>
 
 	<body>
-	<br>
-	<br>
-					
-					<div class="cycle-slideshow">
-						<img src="./images/image1.jpg" text-align="center">
-						<img src="./images/image2.jpg" text-align="center">
-						<img src="./images/image3.jpg" text-align="center">
-						<img src="./images/image4.jpg" text-align="center">
+		<br>
+		<br>
+					<div class="cycle-slideshow" >
+						<IMG class="displayed" src="./images/image1.jpg" alt="leonard"/>
+						<IMG class="displayed" src="./images/image2.jpg" alt="leonard2"/>
+						<IMG class="displayed" src="./images/image3.jpg" alt="ordinateurs"/>
+						<IMG class="displayed" src="./images/image4.jpg" alt="amphitêatre"/>
 					</div>
-					
 				
+				</div>
+		</div>		
+		<br>
+		<br>
+
+			<?php
+
+			echo '<div class="titre"> Les Différents axes </div>';
+			include 'tableau.php';
+			foreach ($axe as $key => $value){ 
+			echo '<img src="'.$value['img'].'"></div>';
+			}
+			echo '</div>';
+			?>
+			
 	</body>
 </html>

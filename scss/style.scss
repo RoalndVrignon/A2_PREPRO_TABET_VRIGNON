@@ -1,11 +1,8 @@
 @import "compass/css3";
 
 body {
+	
 
-
-#content{
-  color:white;
-}
 
 .navbar-inner li{
   line-height: 50px;
@@ -36,21 +33,13 @@ body {
 }
 
 .cycle-slideshow {
-	left: 300px;
-		
+	.displayed {
+    display: block;
+    text-align: center; }
 }
 
-.dropdown-menu::before, 
-.dropdown-menu::after {
-    border: none;
-    content: none !important;
-}
-
-.dropdown-menu{
-    border-radius:3%;
-    z-index:-3;
-    margin-top:-10px;
-    margin-right: -60% !important;
+.titre {
+	text-align: center;
 }
 
 ul {
@@ -73,6 +62,8 @@ li a {
     text-align: center;
     padding: 14px 152px;
 }
+
+
 
 }
 

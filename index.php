@@ -17,7 +17,7 @@
       <img class="logo" src="images/logo.png" height="80px">
       <ul class="nav pull-right">
 		        <li>
-		          	<a class="nav-link">
+		          	<a href="vie_etudiante.html" class="nav-link">
 		            	VIE ETUDIANTE
 		          	</a>
 		        </li>

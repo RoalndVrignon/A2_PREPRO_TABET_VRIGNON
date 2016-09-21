@@ -18,6 +18,12 @@
       		<div class="brand">
       		<img class="logo" src="images/logo.png" height="80px"/>
 			      <ul class="nav pull-right">
+
+			      	<li>
+		          	<a href="index.php" class="nav-link"> 
+		            	ACCUEIL
+		          	</a>
+		        </li>
 					        <li>
 					          	<a href="vie_etudiante.html" class="nav-link">
 					            	VIE ETUDIANTE
@@ -137,6 +143,10 @@
 				</div>	
 					</section>
 
-	</div>		
+	</div>	
+ <footer>
+ 	<a href="https://www.facebook.com/Institut.Internet.Multimedia/?fref=ts"><img src="images/facebooklogo.png" width="3%"></a>
+		<a href="https://twitter.com/IIMparis"><img src="images/Twitter-PNG-Picture.png" width="3%">
+ </footer>	
 	</body>
 </html>

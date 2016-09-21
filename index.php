@@ -10,40 +10,42 @@
 
 
 		<title>IIM - Leonard de Vinci</title>
-<div id="background"></div>
-<div class="navbar navbar-fixed-top">
-  <nav class="navbar-inner header">
-      <div class="brand">
-      <img class="logo" src="images/logo.png" height="80px">
-      <ul class="nav pull-right">
-		        <li>
-		          	<a href="vie_etudiante.html" class="nav-link">
-		            	VIE ETUDIANTE
-		          	</a>
-		        </li>
 
-		        <li>
-		          	<a class="nav-link">
-		            	MODELS
-		          	</a>
-		        </li>
 
-		        <li>
-		          	<a class="nav-link">
-		            	PLACES
-		          	</a>
-		        </li>
+<div id="background">
+	<div class="navbar navbar-fixed-top">
+  		<nav class="navbar-inner header">
+      		<div class="brand">
+      		<img class="logo" src="images/logo.png" height="80px"/>
+			      <ul class="nav pull-right">
+					        <li>
+					          	<a href="vie_etudiante.html" class="nav-link">
+					            	VIE ETUDIANTE
+					          	</a>
+					        </li>
 
-		        <li class="dropdown">
-		          	<a class="dropdown-toggle nav-link" data-toggle="dropdown">
-		            	DROP
-		          	</a> 
-        		</li>
-      </ul>
-      </div>
+					        <li>
+					          	<a class="nav-link">
+					            	MODELS
+					          	</a>
+					        </li>
+
+					        <li>
+					          	<a class="nav-link">
+					            	PLACES
+					          	</a>
+					        </li>
+
+					        <li class="dropdown">
+					          	<a class="dropdown-toggle nav-link" data-toggle="dropdown">
+					            	DROP
+					          	</a> 
+			        		</li>
+			      </ul>
+      		</div>
+     		</nav> 
+    	</div>  
     </div>
-   </nav>
-  </div>    
 <!--/cloud footer :)
 -->
 
@@ -128,7 +130,7 @@
 					<li>
 
 						<a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
-							<img src="images/cinéma.jpg" />
+							<img src="images/cinema.jpg" />
 							<div><span>Cinéma d'animation<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit autem sapiente consectetur, pariatur doloremque, provident accusantium facilis ratione molestias suscipit veniam fugit ut delectus animi, asperiores rem voluptatem maxime omnis.</span></div>
 						</a>
 					</li>

@@ -147,14 +147,16 @@ h2 {
 
 .block {
   background-color: #C9C9C9;
-  width: 300px;
+  width: 410px;
   height: 150px;
+  border-radius: 15px;
 }
 
 .blocks {
   background-color: #C9C9C9;
   width: 500px;
   height: 150px;
+  border-radius: 15px;
 }
 
 footer {

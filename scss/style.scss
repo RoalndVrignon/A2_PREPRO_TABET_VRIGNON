@@ -3,19 +3,25 @@
 $macouleur : #F7CCA1 ; 
 $grisclair : #C9C9C9 ;
 
-body {
+
 	
 
 
-.navbar-inner li{
+
+header{
+  background-color: #E6E9EB;
+  /* remove the gradient */
+  background-image: none !important;
+  border-bottom:2px solid #F7CCA1 !important;
+  line-height: 40px !important;
+  box-shadow: 0 12px 6px -6px rgba(0,0,0, .2) !important;
+
+  .navbar-inner li{
   line-height: 50px;
   letter-spacing:4px;
   background-color: #F7CCA1;
 }
 
-.bandeau {
-	background-color: $macouleur;
-}
 
 .nav-link{
   border-top: 4px solid white;
@@ -29,26 +35,28 @@ body {
   background-color:$macouleur;
 }
 
-
-.header{
-  background-color: #E6E9EB;
-  /* remove the gradient */
-  background-image: none !important;
-  border-bottom:2px solid #F7CCA1 !important;
-  line-height: 40px !important;
-  box-shadow: 0 12px 6px -6px rgba(0,0,0, .2) !important;
 }
 
-.cycle-slideshow {
-	.displayed {
-    display: block;
-    padding: 10px; }
-}
+body{
 
+height: 100%;
+
+  background-size: cover;
+
+    .cycle-slideshow {
+        height: 100%;
+
+        	.displayed {
+            display: block;
+            padding: 10px;}
+        }
+
+}
 .titre {
 	text-align: center;
 
 }
+
 
 /*.gallery {
     padding-left: 10px;

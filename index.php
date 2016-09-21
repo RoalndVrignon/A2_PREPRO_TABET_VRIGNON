@@ -57,16 +57,12 @@
 	</header>
 
 	<body>
-	<br>
-	<br>
-		<div class="bandeau">
-		<br>
-			<div class="cycle-slideshow"  >
-				<img class="displayed" src="./images/image1.jpg" alt="leonard" padding=10px/>
-				<img class="displayed" src="./images/image2.jpg" alt="leonard2"/>
-				<img class="displayed" src="./images/image3.jpg" alt="ordinateurs"/>
-				<img class="displayed" src="./images/image4.jpg" alt="amphitêatre"/>
-				<div class="texte">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque recusandae nisi fuga pariatur, voluptatibus tempora enim asperiores maxime quae voluptates. Dolor eligendi, iure numquam, nulla libero reiciendis autem quasi id.</div>
+			<div class="cycle-slideshow">
+				<img class="displayed" src="./images/image1.jpg" alt="leonard" style="min-width: 100%; background-size: cover" />
+				<img class="displayed" src="./images/image2.jpg" alt="leonard2" style="min-width: 100%; background-size: cover"/>
+				<img class="displayed" src="./images/image3.jpg" alt="ordinateurs" style="min-width: 100%"/>
+				<img class="displayed" src="./images/image4.jpg" alt="amphitêatre" style="min-width: 100%"/>
+				
 			</div>
 			<br>
 		</div>

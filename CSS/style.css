@@ -10,6 +10,11 @@ body {
   
   }*/
 }
+
+img.displayed.cycleslide {
+  background-size: cover;
+}
+
 body .navbar-inner li {
   line-height: 50px;
   letter-spacing: 4px;
@@ -38,7 +43,6 @@ body .header {
   box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.2) !important;
 }
 body .cycle-slideshow .displayed {
-  display: block;
   padding: 10px;
 }
 body .titre {

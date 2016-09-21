@@ -151,6 +151,12 @@ h2 {
   height: 150px;
 }
 
+.blocks {
+  background-color: #C9C9C9;
+  width: 500px;
+  height: 150px;
+}
+
 footer {
   background-color: #6E7271;
 }

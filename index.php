@@ -31,8 +31,8 @@
 					        </li>
 
 					        <li>
-					          	<a class="nav-link">
-					            	MODELS
+					          	<a href="ecole.html" class="nav-link">
+					            	l'ECOLE
 					          	</a>
 					        </li>
 

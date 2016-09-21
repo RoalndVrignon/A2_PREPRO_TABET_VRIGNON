@@ -13,13 +13,14 @@ header{
   /* remove the gradient */
   background-image: none !important;
   border-bottom:2px solid #F7CCA1 !important;
-  line-height: 40px !important;
+  line-height: 30px !important;
   box-shadow: 0 12px 6px -6px rgba(0,0,0, .2) !important;
+  background-color: $grisclair;
 
   .navbar-inner li{
   line-height: 50px;
   letter-spacing:4px;
-  background-color: #F7CCA1;
+
 }
 
 

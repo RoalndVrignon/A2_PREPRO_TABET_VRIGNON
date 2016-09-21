@@ -36,17 +36,6 @@
 					          	</a>
 					        </li>
 
-					        <li>
-					          	<a class="nav-link">
-					            	PLACES
-					          	</a>
-					        </li>
-
-					        <li class="dropdown">
-					          	<a class="dropdown-toggle nav-link" data-toggle="dropdown">
-					            	DROP
-					          	</a> 
-			        		</li>
 			      </ul>
       		</div>
      		</nav> 
@@ -146,7 +135,7 @@
 	</div>	
  <footer>
  	<a href="https://www.facebook.com/Institut.Internet.Multimedia/?fref=ts"><img src="images/facebooklogo.png" width="3%"></a>
-		<a href="https://twitter.com/IIMparis"><img src="images/Twitter-PNG-Picture.png" width="3%">
+		<a href="https://twitter.com/IIMparis"><img src="images/twitter2.png" width="3%">
  </footer>	
 	</body>
 </html>

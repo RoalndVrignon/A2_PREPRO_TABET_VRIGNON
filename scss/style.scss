@@ -2,65 +2,62 @@
 
 $macouleur : #F7CCA1 ; 
 $grisclair : #C9C9C9 ;
-$grisfonce : #6E7271 ;
-
-
-  
-
-
-
-header{
-  /* remove the gradient */
-  background-image: none !important;
-  border-bottom:2px solid #F7CCA1 !important;
-  line-height: 30px !important;
-  box-shadow: 0 12px 6px -6px rgba(0,0,0, .2) !important;
-  background-color: $grisclair;
+$blanc : white ;
 
 
 
 
-  .navbar-inner li{
-  line-height: 50px;
-  letter-spacing:4px;
-
+body {
+  background-color: #444;
 }
 
-
-.nav-link{
-  border-top: 4px solid white;
-
-  transition: border-top .3s;
-  &:hover{border-top: 4px solid #F7CCA1; }
+.nav {
+  ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+    &:hover {
+      background-color: #005f5f;
+    }
+    &.active {
+      background-color: #fff;
+      color: #444;
+      cursor: default;
+    }
+  }
 }
 
-.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
-  background-image:none;
-  background-color:$macouleur;
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+  /* Option 1 - Display Inline */
 }
 
-}
-
-body{
-
-height: 100%;
-
-  background-size: cover;
-
-    .cycle-slideshow {
-        height: 100%;
-
-          .displayed {
-            display: block;
-            padding: 10px;}
-        }
-
-}
 .titre {
   text-align: center;
-
 }
-
 
 /*.gallery {
     padding-left: 10px;
@@ -73,33 +70,17 @@ height: 100%;
 
 }*/
 
-.padding{
+.padding {
   padding: 10px;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    align: center;
-    border-radius: 5px;
-}
-
-li {
-    float: left;
-     border-right: 1px solid none;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 152px;
+section {
+  padding-left: 127px;
+  background-color: #444;
 }
 
 .da-thumbs {
@@ -107,60 +88,52 @@ li a {
   position: relative;
   margin: 15px auto;
   padding: 0;
-}
-
-.da-thumbs li {
-  float: left;
-  margin: 5px;
-  background: #fff;
-  padding: 8px;
-  position: relative;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-.da-thumbs li a,
-
-.da-thumbs li a img {
-  display: block;
-  position: relative;
-}
-.da-thumbs li a {
-  overflow: hidden;
-}
-
-.da-thumbs li {
-  background-color: $grisclair;
-}
-
-.da-thumbs li a div {
-  position: absolute;
-  background: #333;
-  background: rgba(75,75,75,0.7);
-  width: 100%;
-  height: 100%;
-}
-.da-thumbs li a div span {
-  display: block;
-  padding: 10px 0;
-  margin: 40px 20px 20px 20px;
-  text-transform: uppercase;
-  font-weight: normal;
-  color: rgba(255,255,255,0.9);
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-  border-bottom: 1px solid rgba(255,255,255,0.5);
-  box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
-}
-
-.da-thumbs li a div {
-  top: 0px;
-  left: -100%;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.da-thumbs li a:hover div{
-  left: 0px;
+  li {
+    float: left;
+    margin: 5px;
+    background: #fff;
+    padding: 8px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    a {
+      display: block;
+      position: relative;
+      img {
+        display: block;
+        position: relative;
+      }
+      overflow: hidden;
+      div {
+        position: absolute;
+        background: #333;
+        background: rgba(75, 75, 75, 0.7);
+        width: 100%;
+        height: 100%;
+        span {
+          display: block;
+          padding: 10px 0;
+          margin: 40px 20px 20px 20px;
+          text-transform: uppercase;
+          font-weight: normal;
+          color: rgba(255, 255, 255, 0.9);
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+          box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3);
+        }
+        top: 0px;
+        left: -100%;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover div {
+        left: 0px;
+      }
+    }
+    background-color: #C9C9C9;
+  }
 }
 
 h2 {
@@ -168,28 +141,24 @@ h2 {
 }
 
 .block {
-  background-color: $grisclair;
+  background-color: #C9C9C9;
   width: 410px;
   height: 150px;
   border-radius: 15px;
 }
+
 .blocks {
-  background-color: $grisclair;
+  background-color: #C9C9C9;
   width: 500px;
   height: 150px;
   border-radius: 15px;
 }
 
-
-
-footer{
-  background-color: $grisfonce;
+footer {
+  background-color: white;
 }
 
 
 
 
 
-
-
-/* Change the link color to #111 (black) on hover */

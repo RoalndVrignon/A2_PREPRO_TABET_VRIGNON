@@ -1,59 +1,29 @@
-	<!DOCTYPE html>
-	<html lang="en">
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<title>IIM - Leonard de Vinci</title>
+
+	<body class="news">
 		<header>
-			<meta charset="UTF-8">
+		  	<meta charset="UTF-8">
 			<link rel="stylesheet" type="text/css" href="CSS/style.css">
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 			<script src="http://malsup.github.com/jquery.cycle2.js"></script>
 			<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
-			
+
+		    <div class="nav">
+
+		      <ul>
+		          <img src="images/logoiim.png" alt="logo" width="5%">
+		        <li class="home"><a href="index.php">ACCUEIL</a></li>
+		        <li class="tutorials"><a href="ecole.html">ECOLE</a></li>
+		        <li class="about"><a href="vie_etudiante.html">VIE ETUDIANTE</a></li>
+		      </ul>
+		    </div>
+		  </header>
 
 
-			<title>IIM - Leonard de Vinci</title>
-
-
-	<div id="background">
-		<div class="navbar navbar-fixed-top">
-	  		<nav class="navbar-inner header">
-	      		<div class="brand">
-	      		<img class="logo" src="images/logo.png" height="80px"/>
-				      <ul class="nav pull-right">
-
-				      	<li>
-			          	<a href="index.php" class="nav-link"> 
-			            	ACCUEIL
-			          	</a>
-			        </li>
-						        <li>
-						          	<a href="vie_etudiante.html" class="nav-link">
-						            	VIE ETUDIANTE
-						          	</a>
-						        </li>
-
-						        <li>
-						          	<a href="ecole.html" class="nav-link">
-						            	l'ECOLE
-						          	</a>
-						        </li>
-
-				      </ul>
-	      		</div>
-	     		</nav> 
-	    	</div>  
-	    </div>
-	<!--/cloud footer :)
-	-->
-
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-
-
-
-		</header>
-
-		<body>
 				<div class="cycle-slideshow">
 					<img class="displayed" src="./images/image1.jpg" alt="leonard" style="min-width: 100%; background-size: cover" />
 					<img class="displayed" src="./images/image2.jpg" alt="leonard2" style="min-width: 100%; background-size: cover"/>
@@ -61,7 +31,6 @@
 					<img class="displayed" src="./images/image4.jpg" alt="amphitêatre" style="min-width: 100%"/>
 					
 				</div>
-				<br>
 			</div>
 			<br><br>
 
@@ -78,7 +47,7 @@
 							<a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
 								<img src="images/web.jpg" />
 								<div><span>Web & e-buisness<br>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque cumque, modi dolorum odit minima, hic voluptates suscipit voluptas vel eius esse quam dignissimos fugit deleniti rerum officia asperiores explicabo nesciunt.</span></div>
+								En moins de 20 ans, Internet a révolutionné l’économie mondiale et notre manière de consommer ! Ce secteur, créateur d’emplois et en plein développement, offre de réelles perspectives de carrière chez l’annonceur et en agence pour des profils techniques, stratégiques.</span></div>
 							</a>
 						</li>
 					</div>
@@ -87,9 +56,10 @@
 						<li>
 							<a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
 								<img src="images/comd.jpg" />
-								<div><span>Communication digitale<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis repellendus voluptates ab autem amet numquam architecto rerum minus sint culpa officia ad perspiciatis, voluptate distinctio saepe quae quis dolorem velit!</span></div>
+								<div><span>Communication digitale<br>En intégrant les pratiques d’échanges les professionnels des métiers du commerce, du marketing, des technologies et de la communication s’adaptent, créant ainsi de nouvelles méthodes de travail nécessaires à la maîtrise du foisonnement des contenus des supports.</span></div>
 							</a>
 						</li>
+					</div>
 					</div>
 						
 					<div class="row">
@@ -97,18 +67,20 @@
 						<li>
 							<a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
 								<img src="images/cv.jpg" />
-								<div><span>Communication visuelle<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet laboriosam, soluta quam quae, ab, culpa nihil accusamus autem fugiat doloremque deleniti ex sapiente. Voluptate sunt enim, sit iusto, ipsa blanditiis!</span></div>
+								<div><span>Communication visuelle<br>Sites web, affiches, journaux, applications mobiles, spots publicitaires, serious games.les codes visuels, leurs cycles de vie de plus en plus courts, les exposent à une obsolescence rapide et à une usure des messages qui impose, tant chez les prestataires que chez les clients.</span></div>
 							</a>
 						</li>
 
 					</div>
+
 					<div class="col-md-6 col-xl-6">		
 						<li>
 							<a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
 								<img src="images/design.jpg" />
-								<div><span>Design Interactif<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores nostrum ipsum sit ipsa. Autem deserunt eveniet, magnam, ducimus nihil voluptates rerum quasi accusamus odio, pariatur velit saepe explicabo quae!</span></div>
+								<div><span>Design Interactif<br>Depuis quelques années, notre relation avec le numérique s’est profondément transformée. À l’origine, figées sur un ordinateur de bureau.Le design interactif est l’activité créatrice dédiée à la conception de ces nouveaux produits et services hybrides où l’utilisateur tient la place centrale.</span></div>
 							</a>
 						</li>
+					</div>
 					</div>
 					
 					<div class="row">
@@ -117,7 +89,7 @@
 						<li>
 							<a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
 								<img src="images/Jeux.jpg" />
-								<div><span>Jeux Vidéo<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magnam accusantium corrupti earum ad. Sint placeat nisi voluptatum a ea eveniet est rem molestiae perferendis animi, qui nulla ut laudantium.</span></div>
+								<div><span>Jeux Vidéo<br>Le secteur du jeu vidéo est un secteur en plein essor, avec une croissance et un chiffre d’affaires supérieurs à celui du cinéma. Avec l’apparition de nouveaux médias et supports (réseaux sociaux, tablettes, Smartphones), de nouveaux moyens de diffusion (PS network, XboxLive, TV interactive, Cloud gaming…) et le développement de nouveaux modèles économiques (free-to-play, micro-paiements…) le monde du jeu vidéo évolue constamment.</span></div>
 							</a>
 						</li>
 					</div>
@@ -126,16 +98,23 @@
 
 							<a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
 								<img src="images/cinema.jpg" />
-								<div><span>Cinéma d'animation<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit autem sapiente consectetur, pariatur doloremque, provident accusantium facilis ratione molestias suscipit veniam fugit ut delectus animi, asperiores rem voluptatem maxime omnis.</span></div>
+								<div><span>Cinéma d'animation<br>Les entreprises du secteur de l’image de synthèse et des effets spéciaux numériques produisent des images de plus en plus étonnantes grâce aux innovations techniques. De nombreuses entreprises spécialisées, en France et à l’étranger, fabriquent des produits aussi divers que les longs-métrages d’animation ou d’effets spéciaux, les publicités, les séries d’animation, les documentaires incluant des effets spéciaux ou les jeux vidéo…</span></div>
 							</a>
 						</li>
 					</div>	
-						</section>
-
+					</div>
+					</section>
+					</ul>
 		</div>	
+
+
+
+</body>
+
 	 <footer>
-	 	<a href="https://www.facebook.com/Institut.Internet.Multimedia/?fref=ts"><img src="images/facebooklogo.png" width="3%"></a>
-			<a href="https://twitter.com/IIMparis"><img src="images/twitter2.png" width="3%">
+	 	<a href="https://www.facebook.com/Institut.Internet.Multimedia/?fref=ts"><img src="images/facebook_black.png" width="2%"></a>
+		<a href="https://twitter.com/IIMparis"><img src="images/twitter_black.png" width="2%"></a>
 	 </footer>	
-		</body>
-	</html>
+
+
+</html>

@@ -32,11 +32,10 @@
 					
 				</div>
 			</div>
-			<br><br>
+			
 
 			<h1> LES AXES </h1>
-		<br>
-		<br>
+		
 
 		<div class="gallery">
 		    <ul id="da-thumbs" class="da-thumbs">

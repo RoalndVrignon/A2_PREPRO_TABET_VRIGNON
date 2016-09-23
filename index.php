@@ -15,7 +15,7 @@
 		    <div class="nav">
 
 		      <ul>
-		          <img src="images/logoiim.png" alt="logo" width="5%">
+		        <img src="images/logoiim.png" alt="logo" width="5%">
 		        <li class="home"><a href="index.php">ACCUEIL</a></li>
 		        <li class="tutorials"><a href="ecole.html">ECOLE</a></li>
 		        <li class="about"><a href="vie_etudiante.html">VIE ETUDIANTE</a></li>
